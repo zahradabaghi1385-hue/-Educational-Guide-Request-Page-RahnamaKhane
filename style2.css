@@ -79,47 +79,126 @@ body {
     color: white;
     padding: 5px 12px;
 }
-.intro{
+
+.intro {
     display: flex;
     flex-direction: column;
-   
+
     gap: 15px;
-    
+
 }
-.intro-text{
+
+.intro-text {
     font-size: 16px;
     color: #aeabb3;
 }
-.specs{
+
+.specs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     width: 100%;
-  
+
 }
-.spec{
-    border:1px solid #d0d7e0 ;
+
+.spec {
+    border: 1px solid #d0d7e0;
     background-color: white;
     padding: 15px;
     border-radius: 10px;
 }
-.spec-label{
-    color:#a8a6ac ;
+
+.spec-label {
+    color: #a8a6ac;
     font-size: small;
     font-weight: 600;
 }
-.spec-value{
+
+.spec-value {
     color: #a04000;
     font-size: medium;
     font-weight: 600;
     margin-top: 10px;
 }
-.notice{
-    border-right:4px solid #d35400 ;
-    background-color:#ffe8d6;
+
+.notice {
+    border-right: 4px solid #d35400;
+    background-color: #ffe8d6;
     border-radius: 10px;
     padding: 10px;
-    color:#979797 ;
+    color: #979797;
     font-size: large;
-   
+
+}
+
+.chapters {
+    padding: 20px;
+    border: none;
+}
+
+.chapters-title,
+.chapter-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.chapters-title {
+    border: 1px solid #d0d7e0;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.chapter-card {
+    border: 1px solid #eef1f5;
+    background-color: #eef1f5;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.number {
+    border: 1px solid #ffe8d6;
+    background-color: #ffe8d6;
+    border-radius: 8px;
+    padding: 7px;
+    color: #a04000;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.chapter {
+    border: 1px solid #d0d7e0;
+    background-color: white;
+    border-radius: 10px;
+    padding: 16px;
+    text-align: right;
+    margin-top: 15px;
+}
+
+.num {
+    color: #a04000;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.pages {
+    display: inline-block;
+    background-color: #ffe8d6;
+    border-radius: 12px;
+    color: #a04000;
+    padding: 5px;
+    margin: 15px 0 15px 0;
+}
+
+.chapter-text {
+    color: #7f838e;
 }
