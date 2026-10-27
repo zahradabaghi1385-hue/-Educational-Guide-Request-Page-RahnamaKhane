@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     border: 1px solid #d0d7e0;
-    border-radius: 30px;
+    border-radius: 50px;
     align-items: center;
     background-color: white;
     gap: 15px;
@@ -207,6 +207,7 @@ body {
     background-color: #e1e7ee;
     padding: 25px;
     margin-top: 20px;
+    margin: 20px -20px;
 }
 
 .form {
@@ -218,6 +219,8 @@ body {
     border-radius: 10px;
     margin: 0 auto;
     padding: 20px;
+    width: 100%;
+    max-width: 700px;
 }
 
 .form-notice {
@@ -229,13 +232,6 @@ body {
     color: #7f838e;
     padding: 20px;
     margin: 10px 0 15px 0;
-}
-
-form-lable {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-    font-weight: 700;
 }
 
 .optional {
@@ -296,4 +292,50 @@ form-lable {
 
 .email {
     color: #a74200;
+}
+
+.footer {
+    text-align: center;
+    color: #9ca2ac;
+    padding: 20px;
+    font-size: 16px;
+
+}
+
+@media(max-width: 768px) {
+    .hero {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .chapter-list,
+    .chapters-title {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .specs {
+        gap: 10px;
+    }
+}
+
+@media(max-width: 360px) {
+
+    .header,
+    .hero,
+    .chapter-list,
+    .chapters-title,
+    .specs {
+        display: flex;
+        flex-direction: column;
+    }
+    .container,
+    .chapters{
+        padding: 10px;
+    }
+    .request{
+        margin: 20px -10px 0;
+        padding: 15px;
+    }
+    .header{
+        align-items: flex-start;
+    }
 }
