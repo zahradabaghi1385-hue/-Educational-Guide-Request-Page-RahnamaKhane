@@ -100,6 +100,43 @@
 
             </section>
         </section>
+
+        <section class="request" id="request">
+            <form class="form">
+                <h2>درخواست راهنما</h2>
+
+                <p class="form-notice">
+                    سطح آشنایی فقط برای شناخت مخاطب است؛ همه سطح‌ها همین نسخه فارسی را درخواست می‌کنند.
+                </p>
+
+                <label class="form-lable">نام <span class="optional">(اختیاری)</span></label>
+                <input type="text" id="name" name="name">
+
+                <label class="form-lable">ایمیل <span class="required">(اجباری)</span></label>
+                <input type="email" id="email" name="email" required>
+
+                <label class="form-lable">سطح آشنایی <span class="required">(اجباری)</span></label>
+                <select id="level" name="level" required>
+                    <option value="">سطح آشنایی را انتخاب کنید</option>
+                    <option value="beginner">تازه شروع کرده‌ام</option>
+                    <option value="html-css">HTML/CSS مقدماتی را دیده‌ام</option>
+                    <option value="review">برای مرور می‌خواهم</option>
+                </select>
+
+                <label class="confirm">
+                    <input type="checkbox" name="confirm" required>
+                    مایلم راهنما را در ایمیل نمونه وارد شده دریافت کنم <span class="required">(اجباری)</span>
+                </label>
+
+                <button type="submit" class="submit">ارسال درخواست آزمایشی</button>
+                <hr class="hr">
+                <section class="contact">
+                    <p class="call">تماس</p>
+                    <a href="mailto:guide@example.com" class="email">guide@example.com</a>
+                </section>
+            </form>
+
+        </section>
     </main>
 </body>
 
