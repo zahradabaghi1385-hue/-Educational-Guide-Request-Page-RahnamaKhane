@@ -202,3 +202,98 @@ body {
 .chapter-text {
     color: #7f838e;
 }
+
+.request {
+    background-color: #e1e7ee;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #cfd6df;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-notice {
+    display: inline-block;
+    border-right: 4px solid #d35400;
+    background-color: #ffe8d6;
+    border-radius: 10px;
+    font-size: medium;
+    color: #7f838e;
+    padding: 20px;
+    margin: 10px 0 15px 0;
+}
+
+form-lable {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.optional {
+    color: #787c80;
+    font-weight: 400;
+}
+
+.required {
+    color: #a04000;
+    font-weight: 400;
+}
+
+.form input {
+    border: 2px solid #cfd6df;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+#level {
+    border: 2px solid #cfd6df;
+    outline: none;
+    border-radius: 10px;
+    padding: 15px 5px 15px 15px;
+    margin-bottom: 10px;
+}
+
+.confirm {
+    background-color: #eef1f5;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: medium;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.submit {
+    border: 2px solid #a74200;
+    background-color: #d35400;
+    border-radius: 30px;
+    padding: 15px;
+    width: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.hr {
+    border: 1px dashed #dbe0e7;
+    margin-top: 10px;
+}
+
+.call {
+    color: #1d4870;
+}
+
+.email {
+    color: #a74200;
+}
