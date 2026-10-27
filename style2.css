@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #edf0f3;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #d0d7e0;
+    border-radius: 30px;
+    align-items: center;
+    background-color: white;
+    gap: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.logo {
+    color: #a04000;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    padding: 20px;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 25px;
+    align-items: center;
+
+}
+
+.cover {
+    position: relative;
+    border-right: 5px solid #0f2438;
+    background: linear-gradient(135deg, #1d4870, #5e504e, #a9521c);
+    color: white;
+    height: 220px;
+    width: 100%;
+    padding: 25px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cover h1 {
+    margin-top: 50px;
+}
+
+.cover p {
+    font-size: small;
+    text-decoration: line-through;
+}
+
+.web {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: 1px solid #738596;
+    background-color: #1f3f5d;
+    border-radius: 30px;
+    color: white;
+    padding: 5px 12px;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+   
+    gap: 15px;
+    
+}
+.intro-text{
+    font-size: 16px;
+    color: #aeabb3;
+}
+.specs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+  
+}
+.spec{
+    border:1px solid #d0d7e0 ;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+.spec-label{
+    color:#a8a6ac ;
+    font-size: small;
+    font-weight: 600;
+}
+.spec-value{
+    color: #a04000;
+    font-size: medium;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.notice{
+    border-right:4px solid #d35400 ;
+    background-color:#ffe8d6;
+    border-radius: 10px;
+    padding: 10px;
+    color:#979797 ;
+    font-size: large;
+   
+}
