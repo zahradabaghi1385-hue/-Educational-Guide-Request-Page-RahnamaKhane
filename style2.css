@@ -319,8 +319,8 @@ body {
     .header,
     .hero,
     .chapter-list,
-    .chapters-title,
-    .specs {
+    .chapters-title
+    {
         display: flex;
         flex-direction: column;
     }
@@ -335,4 +335,12 @@ body {
     .header{
         align-items: flex-start;
     }
+ .specs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+ }
+ .spec{
+    padding: 15px;
+ }
 }
